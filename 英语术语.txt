@@ -1,0 +1,72 @@
+机器学习模型：用一些复杂的函数来限定模型，线性可分是用超平面的模型，再从模型里面留出一些待定的参数，再用训练的样本代入算法来确定w和b的取值
+机器学习中对高维度的处理远远超过于人
+
+维数的不同，决定用导数还是偏导数
+一维的用d（**）导数
+多维的用阿尔法a（**） 偏导数
+inv是什么函数	矩阵求逆函数
+---
+代价函数也叫做平方误差函数------目标是找出参数theta-----能使代价函数𝐽最小化的参数𝜃0和𝜃1的值。
+
+监督学习。其基本思想是：我们数据集中的每个样本都有相应的“正确答案”。再根据这些样本作出预测
+
+原问题最小化，则对应的对偶问题最大化
+
+hyperplane  	超平面
+slack variable  	松弛变量
+supervised learning		监督学习
+unsupervised learning	无监督学习
+tumor size   肿瘤大小
+uniformity    均匀度
+clump thickne	团块厚度
+Linear Regression with One Variable	单变量线性回归
+Training Set	训练集
+hypothesis 	假设
+parameter	参数
+modeling error	建模误差
+local mininum	局部最小值
+global minimum	全局最小值 s
+batch gradient descent	批量梯度下降
+repeat until convergence	重复直到收敛
+learning rate	𝑎是学习率 	
+Linear Regression with Multiple Variables	多变量线性回归
+polynomial regression		多项式回归
+dependent variable		应变量
+decision boundary		决策边界
+regularization term		正则项
+forward propagation	前向传播算法：正向传播方法，我们从第一层
+				开始正向一层一层进行计算，直到最后一层的ℎ𝜃(𝑥)。
+Backpropagation Algorithm	 反向传播算法
+cross validation error 	交叉验证误差
+degree of polynomial	多项式的次数
+variance		方差
+sanity check	合理检验
+curves		曲线
+Error Analysis	误差分析
+skewed classes	偏斜类
+查准率(Precision)=TP/(TP+FP)  	Precision    精确
+查全率(Recall)=TP/(TP+FN)
+Support Vector Machines（vapink发明）	支持向 量机 
+Quadratic Programming	二次规划
+regulation term 	正则项
+slack variable	松弛变量
+prime problem	原问题
+data compression 	数据压缩
+主成分分析(PCA)是最常见的降维算法。
+Projected Error		投射误差
+Anomaly detection		异常检测
+SGD	随机梯度下降法
+Rectified Linear Unit			修正线性单元
+Recurrent Neural Network		递归神经网络
+Convolutional Neural Network	卷积神经网络
+Neural Network Overview）		神经网络概述
+循环(loop)
+optimer 优化
+Dimensionality reduction   降维
+estimate 估计
+
+白板书推导：
+*------------------------------------------------------------------------------------------------------*
+极大似然估计方法（Maximum Likelihood Estimate，MLE）
+概率密度函数  probablity dense function
+感知机	Perceptron 
